@@ -75,3 +75,95 @@ p.akmu{
 #svt_text{
     border: 2px solid hotpink;
 }
+
+/*폰트 굵기 바꾸기*/
+h1 {
+    font-weight: normal;
+}
+p span{
+    font-weight: bold;
+}
+
+/*폰트 크기 바꾸기*/
+/* article h1{
+    font-size: 60px;
+}
+article a{
+    font-size: 30px;
+}
+article p{
+    font-size: 20px;
+} */
+
+/*폰트 크기 바꾸기(rem단위 사용)*/
+/* html{
+    font-size: 16px;
+}
+article h1{
+    font-size: 3rem;
+}
+article a{
+    font-size: 1rem;
+}
+article p{
+    font-size: 0.8rem;
+} */
+
+/*폰트 크기 바꾸기(em단위 사용)*/
+html{
+    font-size: 16px;
+}
+article{
+    font-size: 40px;
+}
+article h1{
+    font-size: 3em;
+}
+article a{
+    font-size: 1em;
+}
+article p{
+    font-size: 0.8em;
+}
+
+/*폰트 모양 바꾸기*/
+ul li {
+    font-size: 40px;
+}
+ul li:nth-of-type(1) {
+    font-family: "돋움";
+}
+ul li:nth-of-type(2) {
+    font-family: "돋움";
+}
+ul li:nth-of-type(3) {
+    font-family: serif;
+}
+ul li:nth-of-type(4) {
+    font-family: arial;
+}
+
+/*폰트 색상 바꾸기*/
+li:nth-of-type(1){
+    color: red;
+}
+li:nth-of-type(2){
+    color: #ff0000;
+}
+li:nth-of-type(3){
+    color: rgb(255, 0, 0);
+}
+
+/*텍스트 줄 간격 바꾸기*/
+.akmu {
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid red;
+}
+.svt {
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid red;
+}
+
+/**/
