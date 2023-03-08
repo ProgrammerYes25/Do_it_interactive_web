@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*전체 선택자 연습 예제*/
+* {
+    border: 1px solid gray;
+}
+/*그툽 선택자  연습 예제*/
+h1, h2, h3{
+    border: 2px solid pink;
+}
+/*순서 선택자  연습 예제*/
+/* ul li:nth-of-type(1){
+    border: 2px solid pink;
+}
+ul li:nth-of-type(2){
+    border: 2px solid skyblue;
+}
+ul li:nth-of-type(3){
+    border: 2px solid greenyellow;
+}
+ul li:nth-of-type(4){
+    border: 2px solid violet;
+} */
+
+/*수열 선택자  연습 예제*/
+/* ul li:nth-of-type(2n){
+    border: 2px solid blue;
+} */
+
+/*마지막 요소 선택자  연습 예제*/
+/* ul li:last-child{
+    border: 2px solid green;
+} */
+
+/*홀수, 짝수 선택자  연습 예제*/
+ul li:nth-last-child(odd){
+    border: 2px solid pink;
+}
+ul li:nth-last-child(even){
+    border: 2px solid skyblue;
+}
+
+/*속성 선택자  연습 예제*/
+input[type="text"]{
+    border: 2px solid green;
+}
+input[type="password"]{
+    border: 2px solid red;
+}
+
+/*가상 선택자  연습 예제*/
+h1:hover{
+    border: 2px solid skyblue;
+}
+h1:before{
+    content: "before content";
+    color: blue 
+}
+h1:after{
+    content: "before content";
+    color: red 
+}
+
+/*클래스 선택자  연습 예제*/
+p.akmu{
+    border: 2px solid blueviolet;
+}
+.svt{
+    border: 2px solid brown;
+}
+
+/*아이디 선택자  연습 예제*/
+#akmu_text{
+    border: 2px solid orange;
+}
+#svt_text{
+    border: 2px solid hotpink;
+}

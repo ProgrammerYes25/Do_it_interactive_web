@@ -18,10 +18,6 @@ p strong{
     border: 2px solid green;
 }
 /*자식 선택자 연습 예제(자식만)*/
-ul > li{
+div > ul{
     border: 2px solid royalblue;
-}
-/*그툽 선택자 사용하기*/
-h4, h5, h6{
-    border: 2px solid firebrick;
 }
