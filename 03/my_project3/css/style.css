@@ -26,3 +26,113 @@ li:nth-of-type(3){
     letter-spacing: -2px;
 }
 
+/*너비와 높이 지정하기*/
+div.width_height_exam article{
+    border: 1px solid red;
+}
+div.width_height_exam article:nth-of-type(1){
+    width: 100px;
+    height: 100px;
+}
+div.width_height_exam article:nth-of-type(2){
+    width: 20%;
+    height: 20%;
+}
+div.width_height_exam rticle:nth-of-type(3){
+    width: 10vw;
+    height: 10vw;
+}
+div.width_height_exam article:nth-of-type(4){
+    width: 10vh;
+    height: 10vh;
+}
+
+/*너비와 높이 지정하기*/
+div.margin_exam article{
+    width: 50px;
+    height: 30px;
+    border: 1px solid red;
+}
+div.margin_exam article:nth-of-type(1){
+    margin: 20px ;
+}
+div.margin_exam article:nth-of-type(2){
+    margin: 20px 50px;
+}
+div.margin_exam article:nth-of-type(3){
+    margin: 20px auto;
+}
+div.margin_exam article:nth-of-type(4){
+    margin: 20px auto 40px;
+}
+div.margin_exam article:nth-of-type(5){
+    margin: 0px 10px 20px 30px;
+}
+div.margin_exam article:nth-of-type(6){
+    margin-left: 20px;
+}
+div.margin_exam rticle:nth-of-type(7){
+    margin-right: 20px;
+}
+div.margin_exam article:nth-of-type(8){
+    margin-top: 20px;
+}
+div.margin_exam article:nth-of-type(9){
+    margin-bottom: 20px;
+}
+
+/*안쪽 여백 지정하기*/
+div.padding_exam article{
+    width : 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+div.padding_exam article:nth-of-type(1){
+    padding: 0px;
+}
+div.padding_exam article:nth-of-type(2){
+    padding: 30px;
+    box-sizing: border-box;
+}
+/* div.padding_exam article:nth-of-type(2){
+    padding: 30px;
+    width : 40px;
+    height: 40px;
+} */
+
+/*태두리의 형태 지정하기*/
+div.border_exam div{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+div.border_exam div:nth-of-type(1){
+    border-width: 1px ;
+    border-style: solid;
+    border-color: red;
+}
+
+div.border_exam div:nth-of-type(2){
+    border-width: 5px ;
+    border-style: dashed;
+    border-color: blue;
+}
+div.border_exam div:nth-of-type(3){
+    border: 10px dotted green;
+}
+
+/*블록 요소와 인라인 요소 태그*/
+p {
+    border: 1px solid red;
+    height: 100px;
+}
+/* strong, em {
+    border: 1px solid blue;
+    height: 50px;
+    display: inline-block;
+} */
+strong, em {
+    border: 1px solid blue;
+    height: 50px;
+    display: block;
+}
